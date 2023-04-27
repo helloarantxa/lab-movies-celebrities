@@ -5,6 +5,9 @@
   <h3>{{name}}</h3>
   <p>{{occupation}}</p>
   <p>{{catchphrase}}</p>
-  <hr>
+  <hr />
+  <form action="/celebrities/delete/{{_id}}" method="GET">
+    <button type="submit"> Delete celebrity!</button>
+  </form>
 
 {{/each}}
